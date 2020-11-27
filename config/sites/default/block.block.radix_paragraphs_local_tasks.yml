@@ -1,0 +1,22 @@
+uuid: aba22cfa-cc37-409e-9079-e007e26dc9d1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - radix_paragraphs
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: radix_paragraphs_local_tasks
+theme: radix_paragraphs
+region: header
+weight: -1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

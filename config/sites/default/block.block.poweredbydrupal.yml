@@ -1,0 +1,20 @@
+uuid: 2ad311cb-64bc-4cac-b420-531b4b212b45
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - radix_paragraphs
+id: poweredbydrupal
+theme: radix_paragraphs
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

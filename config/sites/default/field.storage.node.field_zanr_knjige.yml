@@ -1,0 +1,30 @@
+uuid: 29be5073-ecaf-4cd4-98f8-1a0acd3f3d0a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_zanr_knjige
+field_name: field_zanr_knjige
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: lirika
+      label: Lirika
+    -
+      value: epika
+      label: Epika
+    -
+      value: drama
+      label: Drama
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

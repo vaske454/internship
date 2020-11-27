@@ -1,0 +1,57 @@
+uuid: 14de891b-cad4-4aa5-a871-6ba802c27446
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.autor.field_godina_rodjenja
+    - field.field.node.autor.field_ime
+    - field.field.node.autor.field_mesto_rodjenja
+    - field.field.node.autor.field_prezime
+    - node.type.autor
+  module:
+    - datetime
+    - user
+id: node.autor.default
+targetEntityType: node
+bundle: autor
+mode: default
+content:
+  field_godina_rodjenja:
+    weight: 103
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_ime:
+    weight: 101
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_mesto_rodjenja:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_prezime:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

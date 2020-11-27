@@ -1,0 +1,28 @@
+uuid: c3879ca3-0722-4bf6-a936-7797cff0233b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.autor.field_godina_rodjenja
+    - field.field.node.autor.field_ime
+    - field.field.node.autor.field_mesto_rodjenja
+    - field.field.node.autor.field_prezime
+    - node.type.autor
+  module:
+    - user
+id: node.autor.teaser
+targetEntityType: node
+bundle: autor
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_godina_rodjenja: true
+  field_ime: true
+  field_mesto_rodjenja: true
+  field_prezime: true

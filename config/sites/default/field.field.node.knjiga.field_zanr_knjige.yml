@@ -1,0 +1,21 @@
+uuid: 31316069-35e9-4691-90f6-335fec733ceb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_zanr_knjige
+    - node.type.knjiga
+  module:
+    - options
+id: node.knjiga.field_zanr_knjige
+field_name: field_zanr_knjige
+entity_type: node
+bundle: knjiga
+label: 'Zanr knjige'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,23 @@
+uuid: 5fb51827-b0c1-4e22-af11-a1742dec64e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - radix_paragraphs
+id: sitebranding
+theme: radix_paragraphs
+region: navbar_branding
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

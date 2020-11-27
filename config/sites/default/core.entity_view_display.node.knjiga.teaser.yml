@@ -1,0 +1,30 @@
+uuid: d84f2dca-a12d-489a-a879-e780ab398758
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.knjiga.field_autor
+    - field.field.node.knjiga.field_datum_izdavanja_knjige
+    - field.field.node.knjiga.field_description
+    - field.field.node.knjiga.field_slika
+    - field.field.node.knjiga.field_zanr_knjige
+    - node.type.knjiga
+  module:
+    - user
+id: node.knjiga.teaser
+targetEntityType: node
+bundle: knjiga
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_autor: true
+  field_datum_izdavanja_knjige: true
+  field_description: true
+  field_slika: true
+  field_zanr_knjige: true

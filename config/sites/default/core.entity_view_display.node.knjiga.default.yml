@@ -1,0 +1,67 @@
+uuid: 06e4365b-fe2a-4c2f-a9d6-fd7b39ba90ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.knjiga.field_autor
+    - field.field.node.knjiga.field_datum_izdavanja_knjige
+    - field.field.node.knjiga.field_description
+    - field.field.node.knjiga.field_slika
+    - field.field.node.knjiga.field_zanr_knjige
+    - node.type.knjiga
+  module:
+    - datetime
+    - image
+    - options
+    - user
+id: node.knjiga.default
+targetEntityType: node
+bundle: knjiga
+mode: default
+content:
+  field_autor:
+    weight: 3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_datum_izdavanja_knjige:
+    weight: 4
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_description:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_slika:
+    weight: 5
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_zanr_knjige:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

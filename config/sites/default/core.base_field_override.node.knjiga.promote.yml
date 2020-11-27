@@ -1,0 +1,22 @@
+uuid: 4a7b3dcb-1eda-43f5-aa10-67a1a5393330
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.knjiga
+id: node.knjiga.promote
+field_name: promote
+entity_type: node
+bundle: knjiga
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

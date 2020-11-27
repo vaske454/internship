@@ -1,0 +1,21 @@
+uuid: a6120d57-5291-482b-9250-aaa7dbba207b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_godina_rodjenja
+    - node.type.autor
+  module:
+    - datetime
+id: node.autor.field_godina_rodjenja
+field_name: field_godina_rodjenja
+entity_type: node
+bundle: autor
+label: 'Godina rodjenja'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

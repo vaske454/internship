@@ -1,0 +1,20 @@
+uuid: d5cc79aa-0949-4d1b-9d73-72e140abefe5
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_godina_rodjenja
+field_name: field_godina_rodjenja
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

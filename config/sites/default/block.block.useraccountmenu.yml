@@ -1,0 +1,25 @@
+uuid: 41a4e3b0-41fd-4a0f-9239-f71356f6e13f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - radix_paragraphs
+id: useraccountmenu
+theme: radix_paragraphs
+region: navbar_right
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

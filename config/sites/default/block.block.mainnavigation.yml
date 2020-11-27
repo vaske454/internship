@@ -1,0 +1,25 @@
+uuid: 5818a1c1-0c7f-4795-8885-5b87d6f250b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - radix_paragraphs
+id: mainnavigation
+theme: radix_paragraphs
+region: navbar_left
+weight: -4
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

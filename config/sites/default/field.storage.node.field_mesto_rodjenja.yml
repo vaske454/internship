@@ -1,0 +1,21 @@
+uuid: 3929beae-069f-4c2e-81b7-6e165e4c3036
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_mesto_rodjenja
+field_name: field_mesto_rodjenja
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

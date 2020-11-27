@@ -1,0 +1,19 @@
+uuid: 474a7d27-65d2-442a-9b3c-65cd181a3c3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mesto_rodjenja
+    - node.type.autor
+id: node.autor.field_mesto_rodjenja
+field_name: field_mesto_rodjenja
+entity_type: node
+bundle: autor
+label: 'Mesto rodjenja'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

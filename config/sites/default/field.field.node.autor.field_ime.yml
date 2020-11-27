@@ -1,0 +1,19 @@
+uuid: 52c052d5-7353-4227-8e56-3ee144faec90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ime
+    - node.type.autor
+id: node.autor.field_ime
+field_name: field_ime
+entity_type: node
+bundle: autor
+label: Ime
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

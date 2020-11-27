@@ -1,0 +1,21 @@
+uuid: 47e6e6cc-626e-44af-9e11-8920efe44783
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_datum_izdavanja_knjige
+    - node.type.knjiga
+  module:
+    - datetime
+id: node.knjiga.field_datum_izdavanja_knjige
+field_name: field_datum_izdavanja_knjige
+entity_type: node
+bundle: knjiga
+label: 'Datum izdavanja knjige'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
