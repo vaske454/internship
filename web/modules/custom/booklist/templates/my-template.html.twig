@@ -1,0 +1,8 @@
+<ul class="node__knjiga">
+  {% for value in myvariable %}
+  <li>
+    <h3 class="node__knjiga--title"><a href="/node/{{ value.nid }}">{{ value.title }}</a></h3>
+    <p class="node__knjiga--description">{{ value.description }}</p>
+  </li>
+  {% endfor %}
+</ul>

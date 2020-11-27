@@ -1,0 +1,7 @@
+booklist.report:
+  path: '/book/list'
+  defaults:
+    _controller: '\Drupal\booklist\Controller\ReportController::display'
+    _title: "Lista knjiga"
+  requirements:
+    _permission: 'access content'

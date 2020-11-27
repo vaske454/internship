@@ -1,0 +1,6 @@
+booklist.newpage:
+  title: 'BookList'
+  description: 'Link to the page booklist created'
+  route_name: booklist.report
+  weight: 10
+  menu_name: main
