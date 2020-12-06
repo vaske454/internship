@@ -1,0 +1,6 @@
+romanlist.newpage:
+  title: 'RomanList'
+  description: 'Link to the page romanlist created'
+  route_name: romanlist.report
+  weight: 10
+  menu_name: main

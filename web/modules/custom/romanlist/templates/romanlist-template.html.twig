@@ -1,0 +1,12 @@
+<ul class="node__roman">
+  {% for value in myvariable %}
+  <li>
+    <h3 class="node__roman--title"><a href="/node/{{ value.nid }}">{{ value.title }}</a></h3>
+    <p class="node__roman--isbn">ISBN: {{ value.isbn }}</p>
+    <p class="node__roman--price">Price: {{ value.price }}</p>
+    {% for comment in value.comments %}
+    <blockquote class="node__roman--comment">{{ comment.value }}</blockquote>
+    {% endfor %}
+  </li>
+  {% endfor %}
+</ul>

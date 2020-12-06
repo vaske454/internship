@@ -1,0 +1,6 @@
+name: Roman List
+description: Allows you to see a list of romans
+core_version_requirement: ^8.7.7 || ^9
+type: module
+package: Roman List
+version: 1.0

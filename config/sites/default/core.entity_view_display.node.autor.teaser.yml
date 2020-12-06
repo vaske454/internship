@@ -26,3 +26,4 @@ hidden:
   field_ime: true
   field_mesto_rodjenja: true
   field_prezime: true
+  langcode: true

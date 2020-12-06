@@ -4,6 +4,7 @@ module:
   admin_toolbar_search: 0
   admin_toolbar_tools: 0
   automated_cron: 0
+  basic_auth: 0
   big_pipe: 0
   block: 0
   block_content: 0
@@ -14,20 +15,27 @@ module:
   comment: 0
   components: 0
   config: 0
+  config_translation: 0
   contact: 0
   contextual: 0
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  examples: 0
+  feeds: 0
+  feeds_ex: 0
   field: 0
   field_ui: 0
   file: 0
   filter: 0
+  hal: 0
   help: 0
   history: 0
   image: 0
+  language: 0
   link: 0
+  locale: 0
   menu_link_content: 0
   menu_ui: 0
   node: 0
@@ -37,8 +45,13 @@ module:
   path_alias: 0
   quickedit: 0
   rdf: 0
+  rest: 0
+  rest_example: 0
+  romanlist: 0
   search: 0
+  serialization: 0
   shortcut: 0
+  social_media_links: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -49,6 +62,7 @@ module:
   user: 0
   views_ui: 0
   extlink: 1
+  content_translation: 10
   views: 10
   standard: 1000
 theme:
@@ -56,6 +70,9 @@ theme:
   seven: 0
   radix: 0
   radix_paragraphs: 0
+  bootstrap_barrio: 0
+  vaske: 0
+  internship: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

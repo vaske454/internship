@@ -1,0 +1,11 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function romanlist_theme($existing, $type, $theme, $path) {
+  return [
+    'romanlist_template' => [
+      'variables' => ['myvariable' => array()],
+    ],
+  ];
+}

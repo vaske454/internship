@@ -28,3 +28,4 @@ hidden:
   field_description: true
   field_slika: true
   field_zanr_knjige: true
+  langcode: true

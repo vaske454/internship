@@ -1,0 +1,7 @@
+romanlist.report:
+  path: '/roman/list'
+  defaults:
+    _controller: '\Drupal\romanlist\Controller\RomanListController::display'
+    _title: "Lista romana"
+  requirements:
+    _permission: 'access content'
