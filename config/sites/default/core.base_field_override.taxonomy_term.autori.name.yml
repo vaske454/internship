@@ -1,0 +1,18 @@
+uuid: 6885ddd2-fa27-4a48-98dd-5735c327590b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.autori
+id: taxonomy_term.autori.name
+field_name: name
+entity_type: taxonomy_term
+bundle: autori
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 042ce1b1-6a23-450f-9e4a-ec77db88dc02
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_comments
+    - node.type.roman
+id: node.roman.field_comments
+field_name: field_comments
+entity_type: node
+bundle: roman
+label: Comments
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

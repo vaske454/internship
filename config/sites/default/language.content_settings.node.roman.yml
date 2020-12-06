@@ -1,0 +1,16 @@
+uuid: cc7187b5-bda5-46fb-82d0-e1684703180f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.roman
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.roman
+target_entity_type_id: node
+target_bundle: roman
+default_langcode: site_default
+language_alterable: true

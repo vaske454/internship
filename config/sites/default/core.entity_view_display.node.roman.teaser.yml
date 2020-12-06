@@ -1,0 +1,29 @@
+uuid: 66ebc637-d348-47af-a6bc-577ab867187e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.roman.feeds_item
+    - field.field.node.roman.field_comments
+    - field.field.node.roman.field_isbn
+    - field.field.node.roman.field_price
+    - node.type.roman
+  module:
+    - user
+id: node.roman.teaser
+targetEntityType: node
+bundle: roman
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  feeds_item: true
+  field_comments: true
+  field_isbn: true
+  field_price: true
+  langcode: true

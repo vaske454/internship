@@ -1,0 +1,18 @@
+uuid: 28da92cb-3fe2-4a14-a906-d7970166fd9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.knjiga
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.knjiga
+target_entity_type_id: node
+target_bundle: knjiga
+default_langcode: site_default
+language_alterable: true

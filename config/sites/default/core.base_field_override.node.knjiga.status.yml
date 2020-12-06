@@ -1,0 +1,22 @@
+uuid: 759bbfc4-cb70-4eef-965d-da1c20adce58
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.knjiga
+id: node.knjiga.status
+field_name: status
+entity_type: node
+bundle: knjiga
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

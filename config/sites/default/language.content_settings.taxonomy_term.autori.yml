@@ -1,0 +1,18 @@
+uuid: b3708991-6a75-4af3-9e46-7774298257cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.autori
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.autori
+target_entity_type_id: taxonomy_term
+target_bundle: autori
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,22 @@
+uuid: dc767138-d20d-4642-8fd4-729d774f0f8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - internship
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: internship_help
+theme: internship
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

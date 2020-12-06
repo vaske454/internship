@@ -1,0 +1,23 @@
+uuid: 234f89e6-177e-43f1-b487-3a21b28ffb6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.feeds_item
+    - node.type.roman
+  module:
+    - feeds
+id: node.roman.feeds_item
+field_name: feeds_item
+entity_type: node
+bundle: roman
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

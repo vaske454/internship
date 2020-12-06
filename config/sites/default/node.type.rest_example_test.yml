@@ -1,0 +1,23 @@
+uuid: d35ea6be-355c-4d36-8569-8608157ed2a0
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rest_example
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: BmVgqGAO3Stbwrs2t7G9Qq8sKSQElUtveCZ2hA9h5qY
+name: 'REST Example Test'
+type: rest_example_test
+description: 'This content is created through the REST API'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: true

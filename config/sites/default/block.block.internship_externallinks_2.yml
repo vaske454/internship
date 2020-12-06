@@ -1,0 +1,25 @@
+uuid: 70698668-a793-4f73-bdf0-af63253af623
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1ef1b3ed-7e29-4bd6-a37e-c5041cb83714'
+  module:
+    - block_content
+  theme:
+    - internship
+id: internship_externallinks_2
+theme: internship
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:1ef1b3ed-7e29-4bd6-a37e-c5041cb83714'
+settings:
+  id: 'block_content:1ef1b3ed-7e29-4bd6-a37e-c5041cb83714'
+  label: 'External links'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

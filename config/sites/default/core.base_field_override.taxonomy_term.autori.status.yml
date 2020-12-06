@@ -1,0 +1,22 @@
+uuid: 367d0dd8-0ad1-4225-876e-d9e4e330ef47
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.autori
+id: taxonomy_term.autori.status
+field_name: status
+entity_type: taxonomy_term
+bundle: autori
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

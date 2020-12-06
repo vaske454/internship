@@ -1,0 +1,110 @@
+uuid: 1a28236c-f744-45e7-bd0f-dae75e7a02f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.roman.field_comments
+    - field.field.node.roman.field_isbn
+    - field.field.node.roman.field_price
+    - node.type.roman
+  module:
+    - feeds_ex
+    - node
+id: bookstore_xml
+label: 'Bookstore XML'
+description: 'Reading XML from URL of Bookstore'
+help: ''
+import_period: 86400
+fetcher: http
+fetcher_configuration:
+  auto_detect_feeds: false
+  use_pubsubhubbub: false
+  always_download: false
+  fallback_hub: ''
+  request_timeout: 30
+parser: xml
+parser_configuration:
+  context:
+    value: //book
+  sources:
+    title:
+      label: title
+      value: title
+    _isbn:
+      label: '@ISBN'
+      value: '@ISBN'
+    price:
+      label: price
+      value: price
+    comments_usercomment:
+      label: comments/userComment
+      value: comments/userComment
+  use_tidy: false
+  display_errors: false
+  source_encoding:
+    - auto
+  debug_mode: false
+  line_limit: 100
+processor: 'entity:node'
+processor_configuration:
+  langcode: en
+  update_existing: 2
+  update_non_existent: _keep
+  expire: -1
+  owner_feed_author: false
+  owner_id: 0
+  authorize: true
+  skip_hash_check: false
+  values:
+    type: roman
+custom_sources:
+  title:
+    label: title
+    value: title
+    machine_name: title
+  _isbn:
+    label: '@ISBN'
+    value: '@ISBN'
+    machine_name: _isbn
+  price:
+    label: price
+    value: price
+    machine_name: price
+  comments:
+    label: comments
+    value: comments
+    machine_name: comments
+  comments_usercomment:
+    label: comments/userComment
+    value: comments/userComment
+    machine_name: comments_usercomment
+mappings:
+  -
+    target: title
+    map:
+      value: title
+    unique:
+      value: '1'
+    settings:
+      language: ''
+  -
+    target: field_isbn
+    map:
+      value: _isbn
+    unique: {  }
+    settings:
+      language: null
+  -
+    target: field_price
+    map:
+      value: price
+    unique: {  }
+    settings:
+      language: null
+  -
+    target: field_comments
+    map:
+      value: comments_usercomment
+    unique: {  }
+    settings:
+      language: null

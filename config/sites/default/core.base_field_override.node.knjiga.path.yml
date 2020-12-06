@@ -1,0 +1,20 @@
+uuid: 432f6719-0baf-443b-923b-4338f4f5da54
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.knjiga
+  module:
+    - path
+id: node.knjiga.path
+field_name: path
+entity_type: node
+bundle: knjiga
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

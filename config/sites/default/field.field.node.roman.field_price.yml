@@ -1,0 +1,23 @@
+uuid: 130c44ac-fda1-4814-b4b4-cf6074842db6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.roman
+id: node.roman.field_price
+field_name: field_price
+entity_type: node
+bundle: roman
+label: Price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: $
+  suffix: ''
+field_type: integer

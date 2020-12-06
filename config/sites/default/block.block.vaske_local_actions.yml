@@ -1,0 +1,20 @@
+uuid: 1857c788-5ce4-403f-8b52-8bf009b8e682
+langcode: en
+status: true
+dependencies:
+  theme:
+    - vaske
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: vaske_local_actions
+theme: vaske
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

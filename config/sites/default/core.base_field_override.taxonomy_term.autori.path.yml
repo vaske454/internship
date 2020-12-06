@@ -1,0 +1,20 @@
+uuid: 2a8de4d3-a5f9-4d61-99cf-bedd362c3e06
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.autori
+  module:
+    - path
+id: taxonomy_term.autori.path
+field_name: path
+entity_type: taxonomy_term
+bundle: autori
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

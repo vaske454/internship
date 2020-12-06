@@ -1,0 +1,25 @@
+uuid: ec6d03a4-32a3-4f5f-83d8-3109debd1f5e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1ef1b3ed-7e29-4bd6-a37e-c5041cb83714'
+  module:
+    - block_content
+  theme:
+    - vaske
+id: vaske_externallinks_2
+theme: vaske
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:1ef1b3ed-7e29-4bd6-a37e-c5041cb83714'
+settings:
+  id: 'block_content:1ef1b3ed-7e29-4bd6-a37e-c5041cb83714'
+  label: 'External links'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

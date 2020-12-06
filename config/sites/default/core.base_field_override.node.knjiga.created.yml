@@ -1,0 +1,18 @@
+uuid: f2a8ac22-646e-4375-9d5e-22342e52f3f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.knjiga
+id: node.knjiga.created
+field_name: created
+entity_type: node
+bundle: knjiga
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created
